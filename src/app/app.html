@@ -1,0 +1,418 @@
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar">
+  <div class="container navbar-inner">
+    <a class="navbar-brand" href="#">RENDA <span class="gold">EXPRESS</span></a>
+    <a class="btn-cta-sm" [href]="paymentUrl" target="_blank" rel="noopener">
+      <ion-icon name="cart-outline"></ion-icon>
+      COMPRAR AGORA
+    </a>
+  </div>
+</nav>
+
+<!-- ===================== HERO SECTION ===================== -->
+<section class="hero" id="hero">
+  <div class="hero-bg-effects">
+    <div class="hero-glow"></div>
+    <div class="hero-particles">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-text">
+      <span class="hero-badge">
+        <ion-icon name="flame-outline"></ion-icon>
+        MÉTODO VALIDADO POR +1.000 ALUNOS
+      </span>
+      <h1>
+        Cansado de <span class="gold">trabalhar muito</span> e
+        <span class="gold">ganhar pouco?</span>
+      </h1>
+      <p class="hero-sub">
+        Descubra como fazer sua <strong>primeira renda online em até 7 dias</strong>,
+        mesmo começando do zero, sem experiência e sem investimento.
+      </p>
+      <button class="btn-cta pulse" (click)="scrollToSection('cta-final')">
+        QUERO COMEÇAR AGORA
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+      </button>
+      <div class="hero-micro">
+        <span class="micro-item">
+          <ion-icon name="checkmark-circle" class="check-icon"></ion-icon>
+          Acesso imediato
+        </span>
+        <span class="micro-item">
+          <ion-icon name="shield-checkmark" class="check-icon"></ion-icon>
+          Garantia de 7 dias
+        </span>
+        <span class="micro-item">
+          <ion-icon name="headset" class="check-icon"></ion-icon>
+          Suporte incluso
+        </span>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="ebook-glow"></div>
+      <img src="assets/ebook-mockup.png" alt="Ebook Renda Express" />
+    </div>
+  </div>
+  <div class="hero-scroll-indicator" (click)="scrollToSection('pain')">
+    <ion-icon name="chevron-down-outline"></ion-icon>
+  </div>
+</section>
+
+<!-- ===================== SEÇÃO DE DOR ===================== -->
+<section class="section section-pain animate-on-scroll" id="pain">
+  <div class="container">
+    <h2 class="section-title">
+      Você se identifica com <span class="gold">alguma dessas situações?</span>
+    </h2>
+    <div class="pain-grid">
+      <div class="pain-card">
+        <div class="pain-icon"><ion-icon name="sad-outline"></ion-icon></div>
+        <p>Trabalha o dia inteiro e no final do mês o dinheiro <strong>nunca sobra</strong></p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+        <p>Passa horas consumindo conteúdo na internet, mas <strong>nunca executa nada</strong></p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon"><ion-icon name="lock-closed-outline"></ion-icon></div>
+        <p>Se sente <strong>preso no emprego</strong>, sem ver uma saída real</p>
+      </div>
+      <div class="pain-card">
+        <div class="pain-icon"><ion-icon name="trending-down-outline"></ion-icon></div>
+        <p>Já tentou ganhar dinheiro online, mas <strong>não conseguiu resultado</strong></p>
+      </div>
+    </div>
+    <p class="pain-cta-text">
+      Se você disse <strong>"sim"</strong> para qualquer uma dessas...
+      <span class="gold">esse ebook foi feito pra você.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== QUEBRA DE CRENÇAS ===================== -->
+<section class="section section-beliefs animate-on-scroll" id="beliefs">
+  <div class="container">
+    <h2 class="section-title">
+      Esqueça tudo o que te disseram.
+      <span class="gold">Você NÃO precisa:</span>
+    </h2>
+    <div class="beliefs-grid">
+      <div class="belief-card">
+        <div class="belief-x"><ion-icon name="close-outline"></ion-icon></div>
+        <p>Ter milhares de <strong>seguidores</strong></p>
+      </div>
+      <div class="belief-card">
+        <div class="belief-x"><ion-icon name="close-outline"></ion-icon></div>
+        <p>Ter <strong>dinheiro</strong> para investir</p>
+      </div>
+      <div class="belief-card">
+        <div class="belief-x"><ion-icon name="close-outline"></ion-icon></div>
+        <p>Ter <strong>experiência</strong> com vendas ou marketing</p>
+      </div>
+      <div class="belief-card">
+        <div class="belief-x"><ion-icon name="close-outline"></ion-icon></div>
+        <p>Saber <strong>programar</strong> ou criar sites</p>
+      </div>
+    </div>
+    <p class="beliefs-bottom">
+      Tudo o que você precisa é de um <strong>celular</strong>, <strong>internet</strong>
+      e <strong>vontade de mudar</strong>. O método faz o resto.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== SOLUÇÃO / MÉTODO 3R ===================== -->
+<section class="section section-solution animate-on-scroll" id="solution">
+  <div class="container">
+    <span class="section-badge">O MÉTODO</span>
+    <h2 class="section-title">
+      Conheça o <span class="gold">Método 3R</span>
+    </h2>
+    <p class="section-subtitle">
+      Um sistema simples e direto para gerar renda online do zero.
+    </p>
+    <div class="method-grid">
+      <div class="method-card">
+        <div class="method-icon"><ion-icon name="flash-outline"></ion-icon></div>
+        <div class="method-number">01</div>
+        <h3>Rápido</h3>
+        <p>Resultados possíveis já nos <strong>primeiros 7 dias</strong>. Sem enrolação.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-icon"><ion-icon name="checkmark-done-outline"></ion-icon></div>
+        <div class="method-number">02</div>
+        <h3>Real</h3>
+        <p>Estratégias <strong>testadas e validadas</strong>, sem promessas irreais.</p>
+      </div>
+      <div class="method-card">
+        <div class="method-icon"><ion-icon name="repeat-outline"></ion-icon></div>
+        <div class="method-number">03</div>
+        <h3>Repetível</h3>
+        <p>Um processo que você pode <strong>repetir</strong> quantas vezes quiser para escalar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== O QUE VAI APRENDER ===================== -->
+<section class="section section-learn animate-on-scroll" id="learn">
+  <div class="container">
+    <h2 class="section-title">
+      O que você vai <span class="gold">aprender</span>
+    </h2>
+    <div class="learn-grid">
+      <div class="learn-card">
+        <div class="learn-icon"><ion-icon name="hardware-chip-outline"></ion-icon></div>
+        <h3>Serviços com IA</h3>
+        <p>Use inteligência artificial para oferecer serviços lucrativos sem ser especialista.</p>
+      </div>
+      <div class="learn-card">
+        <div class="learn-icon"><ion-icon name="cube-outline"></ion-icon></div>
+        <h3>Produtos Digitais</h3>
+        <p>Crie e venda infoprodutos simples que geram renda passiva todos os dias.</p>
+      </div>
+      <div class="learn-card">
+        <div class="learn-icon"><ion-icon name="people-outline"></ion-icon></div>
+        <h3>Intermediação</h3>
+        <p>Ganhe comissões conectando pessoas e produtos — sem criar nada do zero.</p>
+      </div>
+      <div class="learn-card">
+        <div class="learn-icon"><ion-icon name="rocket-outline"></ion-icon></div>
+        <h3>Aceleração com IA</h3>
+        <p>Automatize tarefas e multiplique seus resultados usando ferramentas de IA gratuitas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROVA / RESULTADO ===================== -->
+<section class="section section-proof animate-on-scroll" id="proof">
+  <div class="container">
+    <h2 class="section-title">
+      Resultados <span class="gold">reais</span> e possíveis
+    </h2>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <div class="proof-icon"><ion-icon name="calendar-outline"></ion-icon></div>
+        <div class="proof-number">3–7</div>
+        <p class="proof-label">dias para primeiras vendas</p>
+      </div>
+      <div class="proof-card">
+        <div class="proof-icon"><ion-icon name="wallet-outline"></ion-icon></div>
+        <div class="proof-number">R$0</div>
+        <p class="proof-label">de investimento inicial</p>
+      </div>
+      <div class="proof-card">
+        <div class="proof-icon"><ion-icon name="globe-outline"></ion-icon></div>
+        <div class="proof-number">100%</div>
+        <p class="proof-label">online, do celular</p>
+      </div>
+    </div>
+    <p class="proof-disclaimer">
+      * Resultados variam de pessoa para pessoa e dependem da dedicação e execução do método.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== PLANO DE 7 DIAS ===================== -->
+<section class="section section-plan animate-on-scroll" id="plan">
+  <div class="container">
+    <span class="section-badge">PASSO A PASSO</span>
+    <h2 class="section-title">
+      Seu plano de ação de <span class="gold">7 dias</span>
+    </h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 1</div>
+        <div class="timeline-content">
+          <h4>Mentalidade &amp; Preparação</h4>
+          <p>Ajuste seu mindset e prepare suas ferramentas gratuitas.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 2</div>
+        <div class="timeline-content">
+          <h4>Escolha seu Modelo</h4>
+          <p>Descubra qual das 3 estratégias é ideal para você.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 3</div>
+        <div class="timeline-content">
+          <h4>Configure Tudo</h4>
+          <p>Monte sua operação em menos de 2 horas.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 4</div>
+        <div class="timeline-content">
+          <h4>Crie sua Oferta</h4>
+          <p>Aprenda a criar uma oferta irresistível com IA.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 5</div>
+        <div class="timeline-content">
+          <h4>Divulgue Grátis</h4>
+          <p>Estratégias de tráfego orgânico que funcionam hoje.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 6</div>
+        <div class="timeline-content">
+          <h4>Otimize &amp; Escale</h4>
+          <p>Analise resultados e ajuste para vender mais.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-day">DIA 7</div>
+        <div class="timeline-content">
+          <h4><ion-icon name="trophy-outline" class="inline-icon"></ion-icon> Primeira Venda!</h4>
+          <p>Colha os resultados e trace seu plano de escala.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BENEFÍCIOS ===================== -->
+<section class="section section-benefits animate-on-scroll" id="benefits">
+  <div class="container">
+    <h2 class="section-title">
+      Imagine sua vida com <span class="gold">renda extra</span>
+    </h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon"><ion-icon name="cash-outline"></ion-icon></div>
+        <h3>Renda Extra Real</h3>
+        <p>Dinheiro caindo na conta sem depender de patrão.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><ion-icon name="earth-outline"></ion-icon></div>
+        <h3>Liberdade Geográfica</h3>
+        <p>Trabalhe de qualquer lugar, a qualquer hora.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><ion-icon name="flag-outline"></ion-icon></div>
+        <h3>Comece do Zero</h3>
+        <p>Sem investimento, sem experiência, sem seguidores.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
+        <h3>Escalável</h3>
+        <p>Um método que cresce junto com você, sem limite.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== QUEBRA DE OBJEÇÕES ===================== -->
+<section class="section section-faq animate-on-scroll" id="faq">
+  <div class="container">
+    <h2 class="section-title">
+      Ainda tem <span class="gold">dúvidas?</span>
+    </h2>
+    <div class="faq-list">
+      <div class="faq-item" [class.active]="activeFaq === 0">
+        <button class="faq-question" (click)="toggleFaq(0)">
+          <span>"Não tenho tempo"</span>
+          <ion-icon [name]="activeFaq === 0 ? 'remove-outline' : 'add-outline'" class="faq-toggle"></ion-icon>
+        </button>
+        <div class="faq-answer">
+          <p>Você só precisa de <strong>30 minutos por dia</strong>. O método foi criado para quem tem rotina apertada. Se você tem tempo para rolar o feed, tem tempo para mudar de vida.</p>
+        </div>
+      </div>
+      <div class="faq-item" [class.active]="activeFaq === 1">
+        <button class="faq-question" (click)="toggleFaq(1)">
+          <span>"Não sei por onde começar"</span>
+          <ion-icon [name]="activeFaq === 1 ? 'remove-outline' : 'add-outline'" class="faq-toggle"></ion-icon>
+        </button>
+        <div class="faq-answer">
+          <p>O ebook te dá um <strong>passo a passo completo de 7 dias</strong>. É literalmente abrir, ler e executar. Sem complicação.</p>
+        </div>
+      </div>
+      <div class="faq-item" [class.active]="activeFaq === 2">
+        <button class="faq-question" (click)="toggleFaq(2)">
+          <span>"Não tenho dinheiro para investir"</span>
+          <ion-icon [name]="activeFaq === 2 ? 'remove-outline' : 'add-outline'" class="faq-toggle"></ion-icon>
+        </button>
+        <div class="faq-answer">
+          <p>O método funciona com <strong>investimento zero</strong>. Todas as ferramentas indicadas são gratuitas. O único investimento é o ebook.</p>
+        </div>
+      </div>
+      <div class="faq-item" [class.active]="activeFaq === 3">
+        <button class="faq-question" (click)="toggleFaq(3)">
+          <span>"Será que funciona mesmo?"</span>
+          <ion-icon [name]="activeFaq === 3 ? 'remove-outline' : 'add-outline'" class="faq-toggle"></ion-icon>
+        </button>
+        <div class="faq-answer">
+          <p>O método já foi aplicado por <strong>centenas de pessoas comuns</strong>. Funciona para quem executa. E se não gostar, devolvemos seu dinheiro em até 7 dias.</p>
+        </div>
+      </div>
+      <div class="faq-item" [class.active]="activeFaq === 4">
+        <button class="faq-question" (click)="toggleFaq(4)">
+          <span>"Preciso aparecer ou gravar vídeos?"</span>
+          <ion-icon [name]="activeFaq === 4 ? 'remove-outline' : 'add-outline'" class="faq-toggle"></ion-icon>
+        </button>
+        <div class="faq-answer">
+          <p><strong>Não!</strong> Nenhuma das estratégias exige que você apareça, grave vídeos ou tenha seguidores. Tudo pode ser feito de forma anônima.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="section section-cta-final" id="cta-final">
+  <div class="container cta-final-content animate-on-scroll">
+    <div class="cta-final-glow"></div>
+    <span class="cta-urgency">
+      <ion-icon name="time-outline"></ion-icon>
+      OFERTA POR TEMPO LIMITADO
+    </span>
+    <h2>
+      Comece <span class="gold">hoje</span> e faça sua primeira venda
+      <span class="gold">ainda essa semana</span>
+    </h2>
+    <div class="price-box">
+      <p class="price-from">De <s>R$ 97,00</s></p>
+      <p class="price-to">Por apenas</p>
+      <p class="price-value">R$ <span>19,90</span></p>
+      <p class="price-installment">ou 3x de R$ 7,30</p>
+    </div>
+    <a class="btn-cta btn-cta-large pulse" [href]="paymentUrl" target="_blank" rel="noopener">
+      QUERO ADQUIRIR O EBOOK
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </a>
+    <div class="cta-guarantees">
+      <div class="guarantee-item">
+        <ion-icon name="lock-closed" class="guarantee-icon"></ion-icon>
+        <p>Compra 100% segura</p>
+      </div>
+      <div class="guarantee-item">
+        <ion-icon name="checkmark-circle" class="guarantee-icon"></ion-icon>
+        <p>Acesso imediato</p>
+      </div>
+      <div class="guarantee-item">
+        <ion-icon name="shield-checkmark" class="guarantee-icon"></ion-icon>
+        <p>Garantia de 7 dias</p>
+      </div>
+    </div>
+    <p class="cta-risk">
+      Risco zero: se não gostar, devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-brand">RENDA <span class="gold">EXPRESS</span></p>
+    <p class="footer-copy">&copy; 2025 Renda Express. Todos os direitos reservados.</p>
+    <p class="footer-disclaimer">
+      Este produto não garante a obtenção de resultados. Qualquer referência a resultados é ilustrativa e depende do esforço individual.
+    </p>
+  </div>
+</footer>
